@@ -5,9 +5,13 @@
 git clone https://github.com/TomiwaAribisala-git/microservices_helm_charts.git
 ```
 
+# Go to the project directory
+```
+cd microservices_helm_charts
+```
+
 # Prerequisites
 Install [Helm](https://helm.sh/docs/intro/install/)
-
 
 # Helm Template and Helm Lint Commands
 Helm Template renders the chart template in accordance with a selected values file and displays its output, Helm Lint examines a chart template in accordance with a selected values file for possible issues.
@@ -88,4 +92,8 @@ helm template -f values/shipping-values.yaml microservice
 ```
 helm lint -f values/shipping-values.yaml microservice
 ```
+
 # Deploy Microservices with Helmfile
+Install [Helmfile](https://github.com/helmfile/helmfile#installation)
+
+Deploy Helm Charts
