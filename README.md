@@ -96,5 +96,21 @@ helm lint -f values/shipping-values.yaml microservice
 # Deploy Microservices with Helmfile
 -   Install [Helmfile](https://github.com/helmfile/helmfile#installation)
 
--   Deploy Helm Charts
-    
+-   Deploy Helm Charts on Demo environment:Minikube or Cloud Managed Kubernetes Services: AKS, EKS, LKE, GKE.
+
+    - Deploying Helm Charts on clean Minikube state
+    ```
+    helmfile sync
+    ```
+
+    ```
+    helmfile list
+    ```
+
+    ```
+    kubectl get pod
+    ```
+
+    ```
+    minikube service frontend
+    ```
