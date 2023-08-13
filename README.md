@@ -1,12 +1,12 @@
-# Helm Charts for (Demo Cloud-Native Microservices Application)[https://github.com/TomiwaAribisala-git/microservices-demo]
+# Helm Charts for [Demo Cloud-Native Microservices Application](https://github.com/TomiwaAribisala-git/microservices-demo)
 
-# Clone the Chart 
+# Clone the Charts 
 ```
 git clone https://github.com/TomiwaAribisala-git/microservices_helm_charts.git
 ```
 
 # Prerequisites
-Install (Helm)[https://helm.sh/docs/intro/install/]
+Install [Helm](https://helm.sh/docs/intro/install/)
 
 
 # Helm Template and Helm Lint Commands
