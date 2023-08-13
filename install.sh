@@ -1,0 +1,11 @@
+helm install -f charts/redis-values/redis-values.yaml redis-cart charts/redis 
+helm install -f values/ad-values.yaml adservice charts/microservice 
+helm install -f values/cart-values.yaml cartservice charts/microservice 
+helm install -f values/checkout-values.yaml checkoutservice charts/microservice 
+helm install -f values/currency-values.yaml currencyservice charts/microservice
+helm install -f values/email-values.yaml emailservice charts/microservice  
+helm install -f values/frontend-values.yaml frontend charts/microservice 
+helm install -f values/payment-values.yaml paymentservice charts/microservice 
+helm install -f values/product-values.yaml productcatalogservice charts/microservice 
+helm install -f values/recommendation-values.yaml recommendationservice charts/microservice 
+helm install -f values/shipping-values.yaml shippingservice charts/microservice 
